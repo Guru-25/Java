@@ -1,3 +1,5 @@
+package kla;
+
 import java.util.*;
 
 public class Count_Letters{
@@ -13,7 +15,7 @@ public class Count_Letters{
     }
     public static String solve(int n, String[] arr){
         int max=0;
-        String highrate=new String();
+        String highrate= "";
         for(int i=0;i<n;i++){
             if(count(arr[i]).size()>max){
                 max=count(arr[i]).size();

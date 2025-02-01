@@ -1,3 +1,5 @@
+package skillrack;
+
 import java.util.*;
 
 class oddoccurence {
